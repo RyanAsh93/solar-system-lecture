@@ -8,7 +8,7 @@ import ProductView from "./screens/products/ProductView";
 import NoMatch from "./screens/NoMatch";
 import NavBar from "./components/NavBar";
 import Demo from "./screens/componentsDemo/Demo";
-import SolarSystems from "./screens/solarSystems/solarSystem";
+import SolarSystems from "./screens/solarSystems/solarSystems";
 
 function App() {
   return (

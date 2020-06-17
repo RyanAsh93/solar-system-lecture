@@ -12,9 +12,9 @@ puts "100 Products Seeded"
 
 SolarSystem.destroy_all
 Planet.destroy_all
-10.times do |i|
+3.times do |i|
   s = SolarSystem.create(name: Faker::Space.galaxy)
-  5.times do |j|
+  3.times do |j|
     s.planets.create(name: Faker::Space.meteorite, inhabited: false, size:rand(1000...100000))
   end
 end
