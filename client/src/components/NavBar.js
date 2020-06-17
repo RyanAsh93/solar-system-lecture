@@ -14,6 +14,9 @@ const NavBar = () => {
       <Link to="/products">
         <Menu.Item>Products</Menu.Item>
       </Link>
+      <Link to="/solarSystems">
+        <Menu.Item>Solar Systems</Menu.Item>
+      </Link>
     </Menu>
   );
 };
